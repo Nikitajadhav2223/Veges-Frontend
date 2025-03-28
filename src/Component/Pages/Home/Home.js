@@ -173,16 +173,18 @@ const Home=()=>{
   <div className="footer-list">
     <ul>
       <h5>ABOUT :</h5>
-      
+      <li>
       <Link to="/About">About Us</Link>
       <br></br>
       <Link to="/Stories">GreenVeges Stories</Link>
       <br></br>
       <Link to="/Team">Our Team</Link>
+      </li>
     
     </ul>
     <ul>
       <h5>HELP :</h5>
+      <li>
       <Link to="/Payment">Payments</Link>
       <br></br>
       <Link to="/Shipping">Shipping</Link>
@@ -190,14 +192,17 @@ const Home=()=>{
       <Link to="/Cancle">Cancellation & Return</Link>
       <br></br>
       <Link to="/Feedback">Feedback</Link>
+      </li>
     </ul>
     <ul>
       <h5>CONTACT :</h5>
+      <li>
       <Link to="/Phone">999-8900-555 / 455-3333-780</Link>
       <br></br>
       <Link to="/Mail">GreenVeges@gmail.com</Link>
       <br></br>
       <Link to="/Address">GreenVeges Shop ShivajiNagar Pune 345589</Link>
+      </li>
     </ul>
     
     <ul>

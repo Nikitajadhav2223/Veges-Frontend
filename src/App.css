@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+
+
+
+.navbar{
+  width:100% ;
+  height: 80px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration-color: rgb(3, 60, 3);
+  background-color: rgb(31, 142, 116); 
+  
+}
+
+.navbarlogo{
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration-color: rgb(6, 106, 6);
+  cursor: pointer;
+  margin-left: 2%;
+  
+}
+
+.navbarlink{
+  list-style:none ;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarlink li{
+  margin: 0 1rem;
+}
+
+.navbarlink a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbarlink a:hover{
+  color: rgb(5, 84, 45);
+ 
+}
+
+.Icons{
+  list-style:none ;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 2%;
+
+}
+
+.Icons li{
+  margin: 0 1rem;
+}
+
+.Icons a{
+  color: white;
+ size: 30px;
+}
+
+.Icons a:hover{
+  color: rgb(5, 84, 45);
+}
+
