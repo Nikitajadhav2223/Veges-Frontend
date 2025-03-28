@@ -16,19 +16,19 @@ const Home=()=>{
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="./assets/Images/img3.webp" class="d-block w-100" alt="..."/>
+      <img src="/assets/Images/img3.webp" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
       <h5>Nutrient-Rich Produce</h5>
       <p>ELEVATE YOUR LIFESTYLE WITH 100% ORGANIC.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="./assets/Images/img1.jpg" class="d-block w-100" alt="..."/>
+      <img src="/assets/Images/img1.jpg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./assets/Images/imgg3.avif" class="d-block w-100" alt="..."/>
+      <img src="/assets/Images/imgg3.avif" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Order Today!!</h5>
         <p>FARM-FRESH ORGANIC PRODUCE, JUST A CLICK AWAY!</p>
@@ -55,44 +55,44 @@ const Home=()=>{
 <div className="small d-none d-xl-flex d-lg-flex bg-success p-2 text-dark bg-opacity-10" >
   
   <div className="menu" >
-    <Link to='/ProductsType/Roots'>
-      <img src="./assets/Images/menu img1.png" class="card-img-top" alt="..."/>
+    <Link to='/Roots'>
+      <img src="/assets/Images/menu img1.png" class="card-img-top" alt="..."/>
       <h6 className="vege">Roots</h6>
     </Link>
     </div>
   
     <div className="menu" >
-      <Link to ='/ProductsType/Stems'>
-      <img src="./assets/Images/menu img2.png" class="card-img-top" alt="..."/>
+      <Link to ='/Stems'>
+      <img src="/assets/Images/menu img2.png" class="card-img-top" alt="..."/>
       <h6 className="vege">Stems</h6>
       </Link>
     </div>
   
     <div className="menu" >
-      <Link to ='/ProductsType/Bulbs'>
-      <img src="./assets/Images/menu img3.png" class="card-img-top" alt="..."/>
+      <Link to ='/Bulbs'>
+      <img src="/assets/Images/menu img3.png" class="card-img-top" alt="..."/>
       <h6 className="vege">Bulbs</h6>
       </Link>
     </div>
   
   
     <div className="menu" >
-      <Link to='/ProductsType/Seeds & Pods'>
-      <img src="./assets/Images/menu img5.png" class="card-img-top" alt="..."/>
+      <Link to="/SeedsPods">
+      <img src="/assets/Images/menu img5.png" class="card-img-top" alt="..."/>
       <h6 className="vege">Seeds & Pods</h6>
       </Link>
     </div>
   
     <div className="menu" >
-      <Link to ='/ProductsType/Dry Fruits'>
-      <img src="./assets/Images/menu img6.png" class="card-img-top" alt="..."/>
+      <Link to ="/DryFruits">
+      <img src="/assets/Images/menu img6.png" class="card-img-top" alt="..."/>
       <h6 className="vege">Dry Fruits</h6>
       </Link>
     </div>
   
     <div className="menu" >
-      <Link to='/ProductsType/Leaves'>
-      <img src="./assets/Images/menu img7.png" class="card-img-top" alt="..."/>
+      <Link to="/Leaves" >
+      <img src="/assets/Images/menu img7.png" class="card-img-top" alt="..."/>
       <h6 className="vege">Leaves</h6>
       </Link>
     </div>
@@ -173,22 +173,31 @@ const Home=()=>{
   <div className="footer-list">
     <ul>
       <h5>ABOUT :</h5>
-      <li><a href="About">About Us</a></li>
-      <li><a href="/Stories">GreenVeges Stories</a></li>
-      <li><a href="/Team">Our Team</a></li>
+      
+      <Link to="/About">About Us</Link>
+      <br></br>
+      <Link to="/Stories">GreenVeges Stories</Link>
+      <br></br>
+      <Link to="/Team">Our Team</Link>
+    
     </ul>
     <ul>
       <h5>HELP :</h5>
-      <li><a href="/payment">Payments</a></li>
-      <li><a href="/shipping">Shipping</a></li>
-      <li><a href="/cancle">Cancellation & Return</a></li>
-      <li><a href="/feedback">Feedback</a></li>
+      <Link to="/Payment">Payments</Link>
+      <br></br>
+      <Link to="/Shipping">Shipping</Link>
+      <br></br>
+      <Link to="/Cancle">Cancellation & Return</Link>
+      <br></br>
+      <Link to="/Feedback">Feedback</Link>
     </ul>
     <ul>
       <h5>CONTACT :</h5>
-      <li>Phone No :<a href="/phone-no">999-8900-555 / 455-3333-780</a></li>
-      <li>Mail Us : <a href="/Mail">GreenVeges@gmail.com</a></li>
-      <li>Address :<a href="/Address"> GreenVeges Shop ShivajiNagar Pune 345589</a></li>
+      <Link to="/Phone">999-8900-555 / 455-3333-780</Link>
+      <br></br>
+      <Link to="/Mail">GreenVeges@gmail.com</Link>
+      <br></br>
+      <Link to="/Address">GreenVeges Shop ShivajiNagar Pune 345589</Link>
     </ul>
     
     <ul>

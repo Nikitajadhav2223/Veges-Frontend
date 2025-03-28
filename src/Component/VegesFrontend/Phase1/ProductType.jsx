@@ -15,6 +15,7 @@ const ProductCategory = () => {
   useEffect(() => {
     axios
       .get(`https://green-l4k5.onrender.com/getProductsByType/${type}`)
+      
       // .get (`http://localhost:8002/getProductsByType/${type}`)
       .then((response) => {
         console.log("API Response:", response.data);

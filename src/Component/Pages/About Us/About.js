@@ -14,7 +14,7 @@ const About = () => {
         <div className="aboutcontainer">
             <div className="about-content">
                 <div className="about-img">
-                    <img src="./assets/Images/crop img.webp" alt="Organic Vegetables"/>
+                    <img src="/assets/Images/crop img.webp" alt="Organic Vegetables"/>
                 </div>
                 <div className="about-text">
                     <h2>Trusted Organic Store</h2>
@@ -30,7 +30,7 @@ const About = () => {
         <div className="visioncontainer">
             <div className="vision-content">
                 <div className="vision-img">
-                     <img src="./assets/Images/Vision.webp" alt="Vision"/>
+                     <img src="/assets/Images/Vision.webp"  alt="Vision"/>
                 </div>
                 <div className="vision-text">
                     <h2>Our Vision</h2>
@@ -45,7 +45,7 @@ const About = () => {
         <div className="mission-container">
             <div className="mission-content">
                 <div className="mission-img">
-                <img src="./assets/Images/Mission.webp" alt="Mission"/>
+                <img src="/assets/Images/Mission.webp" alt="Mission"/>
                 </div>
                 <div className="mission-text">
                         <h2>Our Mission</h2>
@@ -90,7 +90,7 @@ const About = () => {
             </div>
         </div>
         <div class="image-container">
-            <img src="./assets/Images/fresh Veges.jpg" alt="Fresh Vegetables"/>
+            <img src="/assets/Images/fresh Veges.jpg" alt="Fresh Vegetables"/>
         </div>
         <br></br>
         <a href="/Learn" class="btn">Learn More</a>

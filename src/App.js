@@ -14,6 +14,12 @@ import ProdDetails from './Component/VegesFrontend/Phase4/ProdDetails';
 
 import ProdTitle from './Component/VegesFrontend/Phase4(updated)/ProdTitle';
 import ProdTypesss from './Component/VegesFrontend/Phase4(updated)/ProdType';
+import Roots from './Component/VegesFrontend/Types/Roots';
+import Stems from './Component/VegesFrontend/Types/Stems';
+import Bulbs from './Component/VegesFrontend/Types/Bulbs';
+import SeedsPods from './Component/VegesFrontend/Types/SeedsPods';
+import DryFruits from './Component/VegesFrontend/Types/DryFruits';
+import Leaves from './Component/VegesFrontend/Types/Leaves';
 // import Prod from './Component/VegesFrontend/Phase3/Prod';
  
 
@@ -42,6 +48,15 @@ function App() {
       <Route path="/Producttype" element={<Productstypee/>}/>
       <Route path="ProdTitle/:Title" element={<ProdTitle/>}/>
       <Route path="Typess" element={<ProdTypesss/>}/>
+
+
+
+      <Route path="/Roots" element={<Roots/>}/>
+      <Route path="/Stems" element={<Stems/>}/>
+      <Route path="/Bulbs" element={<Bulbs/>}/>
+      <Route path="/SeedsPods" element={<SeedsPods/>}/>
+      <Route path="/DryFruits" element={<DryFruits/>}/>
+      <Route path="/Leaves" element={<Leaves/>}/>
       </Routes>
     </Router>
 
