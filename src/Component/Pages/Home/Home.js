@@ -173,22 +173,22 @@ const Home=()=>{
   <div className="footer-list">
     <ul>
       <h5>ABOUT :</h5>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">GreenVeges Stories</a></li>
-      <li><a href="#">Our Team</a></li>
+      <li><a href="About">About Us</a></li>
+      <li><a href="/Stories">GreenVeges Stories</a></li>
+      <li><a href="/Team">Our Team</a></li>
     </ul>
     <ul>
       <h5>HELP :</h5>
-      <li><a href="#">Payments</a></li>
-      <li><a href="#">Shipping</a></li>
-      <li><a href="#">Cancellation & Return</a></li>
-      <li><a href="#">Feedback</a></li>
+      <li><a href="/payment">Payments</a></li>
+      <li><a href="/shipping">Shipping</a></li>
+      <li><a href="/cancle">Cancellation & Return</a></li>
+      <li><a href="/feedback">Feedback</a></li>
     </ul>
     <ul>
       <h5>CONTACT :</h5>
-      <li>Phone No :<a href="#">999-8900-555 / 455-3333-780</a></li>
-      <li>Mail Us : <a href="#">GreenVeges@gmail.com</a></li>
-      <li>Address :<a href="#"> GreenVeges Shop ShivajiNagar Pune 345589</a></li>
+      <li>Phone No :<a href="/phone-no">999-8900-555 / 455-3333-780</a></li>
+      <li>Mail Us : <a href="/Mail">GreenVeges@gmail.com</a></li>
+      <li>Address :<a href="/Address"> GreenVeges Shop ShivajiNagar Pune 345589</a></li>
     </ul>
     
     <ul>

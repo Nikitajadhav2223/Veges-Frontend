@@ -93,7 +93,7 @@ const About = () => {
             <img src="./assets/Images/fresh Veges.jpg" alt="Fresh Vegetables"/>
         </div>
         <br></br>
-        <a href="#" class="btn">Learn More</a>
+        <a href="/Learn" class="btn">Learn More</a>
     </div> 
 
 
