@@ -1,0 +1,76 @@
+/* General Styles */
+/* body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+} */
+
+/* Container */
+.product-info-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+/* Back Button */
+.back-btn {
+  background-color: #2c7a2c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+  background-color: #246224;
+}
+
+/* Product Name */
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Product Image */
+.product-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* Product Category */
+.product-category {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2c7a2c;
+  margin-top: 15px;
+}
+
+/* Product Description */
+.product-description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Loading & Error */
+.loading-message,
+.error-message {
+  font-size: 16px;
+  font-weight: 500;
+  color: red;
+  text-align: center;
+}
