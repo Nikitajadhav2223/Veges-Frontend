@@ -105,7 +105,7 @@ const Home=()=>{
       <ul className="vegetable-list">
         <li>
           <div className="vegetable-card">
-            <img src="./assets/Images/Root Vegetables.jpg" alt="Root Vegetables" />
+            <img src="/assets/Images/Root Vegetables.jpg" alt="Root Vegetables" />
             <h2>Top Selling Vegetables</h2>
             <p>"Fresh, Flavorful, and Fast-Selling! Grab Yours Before They're Gone! 🥦🥕🍅"</p>
             <Link to="/Producttype" className="btn">Shop Now</Link>
@@ -116,7 +116,7 @@ const Home=()=>{
       <ul className="vegetable-list">
         <li>
           <div className="vegetable-card">
-            <img src="./assets/Images/Green Vegetables.jpg" alt="Green Vegetables" />
+            <img src="/assets/Images/Green Vegetables.jpg" alt="Green Vegetables" />
             <h2>Popular Green Vegetables</h2>
             <p>"Go Green, Stay Healthy! 🥦🥬 Fresh, Nutritious & Loved by All! 🌿✨"</p>
             <Link to="/AllProducts" className="btn">Explore More</Link>
@@ -127,7 +127,7 @@ const Home=()=>{
       <ul className="vegetable-list">
         <li>
           <div className="vegetable-card">
-            <img src="./assets/Images/Best selling greens.jpg" alt="Best Selling Greens" />
+            <img src="/assets/Images/Best selling greens.jpg" alt="Best Selling Greens" />
             <h2>Best Selling Greens</h2>
             <p>"Fresh, Crisp & In Demand! 🥬🌿 Grab the Best-Selling Greens Today! 💚✨"</p>
             <Link to="/Producttype" className="btn">Buy Now</Link>
