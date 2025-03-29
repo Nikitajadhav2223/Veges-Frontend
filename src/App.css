@@ -59,7 +59,7 @@
   background-color: rgb(31, 142, 116); 
   
 }
-
+/* 
 .navbarlogo{
   font-weight: bold;
   font-size: 40px;
@@ -67,7 +67,39 @@
   cursor: pointer;
   margin-left: 2%;
   
+} */
+
+
+/* 🥦 Logo Styling */
+.navbarlogo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #06513e; /* Golden Yellow */
+  /* text-decoration: none; */
+  transition: color 0.3s ease-in-out;
+  margin-left: 30px;
+  margin-bottom: 8px
 }
+
+/* ✨ Hover Effect */
+.navbarlogo:hover {
+  color: #98d6b0; /* White */
+  transform: scale(1.1);
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+  .navbarlogo {
+    font-size: 20px;
+  }
+}
+
+
+
+
 
 .navbarlink{
   list-style:none ;

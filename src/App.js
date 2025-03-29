@@ -49,7 +49,9 @@ function App() {
 
 
         <nav className='navbar'>
-            <div className='navbarlogo'>GreenVeges</div>
+            <NavLink to='/' className='navbarlogo'>
+            <div>GreenVeges</div>
+            </NavLink>
 
 
             <ul className='navbarlink'>

@@ -3,6 +3,7 @@ height: 700px;
 width: 100%;
 display: flex;
 position: static;
+object-fit: cover; /* Ensures proper scaling */
 }
   .carousel-caption h5{
    color: rgb(222, 23, 93);
@@ -17,6 +18,21 @@ position: static;
     text-align: start;
     font-weight: bold;
  }
+
+ .carousel:focus,
+ .carousel button:focus {
+   outline: none !important;
+   box-shadow: none !important;
+ }
+ 
+ .carousel {
+  overflow: hidden;
+}
+
+
+.unwanted-sidebar {
+  display: none;
+}
 
 
 
