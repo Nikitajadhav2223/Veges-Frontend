@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import VegesNavbar from './Component/Navbar/VegesNavbar';
 import { Route,BrowserRouter as  Router,NavLink,Routes} from "react-router-dom";
 import React from "react";
+
+
 import ProductAxios from './Component/VegesFrontend/Phase1/ProductAxios';
 import ProductTitle from './Component/VegesFrontend/Phase1/ProductTitle';
 import ProductType from './Component/VegesFrontend/Phase1/ProductType';
@@ -35,13 +37,16 @@ import SignUp from './Component/Pages/SignUp/SignUp';
 // import './Navbar.css';
 // import Prod from './Component/VegesFrontend/Phase3/Prod';
 import './App.css';
+import Results from './Component/VegesFrontend/Phase5/Results';
+import { AuthProvider } from './Component/Pages/Context/AuthContext';
+import Login from './Component/Pages/SignUp/Login';
  
 
 
 function App() {
   return (
    <Router>
-
+<AuthProvider>
       <div className="App">
         {/* Navbar */}
 
@@ -49,7 +54,7 @@ function App() {
 
 
         <nav className='navbar'>
-            <NavLink to='/' className='navbarlogo'>
+            <NavLink to='/Home' className='navbarlogo'>
             <div>GreenVeges</div>
             </NavLink>
 
@@ -102,6 +107,7 @@ function App() {
             <Route path='/Help' element={<Help/>}/>
             <Route path='/Search' element={<Search/>}/>
             <Route path='/SignUp' element={<SignUp/>}/>
+            <Route path='/login' element={<Login/>}/>
 
        
       
@@ -125,11 +131,16 @@ function App() {
       <Route path="/SeedsPods" element={<SeedsPods/>}/>
       <Route path="/DryFruits" element={<DryFruits/>}/>
       <Route path="/Leaves" element={<Leaves/>}/>
+
+
+      <Route path="/products/type/:type" element={<Results/>} />
+     
       </Routes>
     
    
 
   </div>
+  </AuthProvider>
  
      </Router>
   

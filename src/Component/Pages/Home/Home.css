@@ -51,7 +51,7 @@ h1{
 h4{
     color: rgb(237, 145, 145);
     margin-top: 2%;
-    margin-left: 700px;
+    margin-left: 90px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -161,7 +161,7 @@ h4{
     transition: transform 0.3s ease-in-out;
     margin-right: 70px;
     margin-left: 70px;
-   
+   margin-bottom: 40px;
   }
   
   .vegetable-card:hover {
@@ -216,18 +216,15 @@ h4{
 }
 
 
-
-
-  
+ 
+/*   
   .features h2 {
     font-size: 2.5rem;
-    color: #224e22;
+    color: #035303;
     margin-bottom: 40px;
-    margin-left: 15%;
     font-weight: bold;
-    margin-right: 200px;
-    font-style: bold;
-
+    margin-right: 500px;
+  
   }
   
   .feature-list {
@@ -235,10 +232,10 @@ h4{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 10px;
     max-width: 600px;
-    margin: 0 auto;
-  }
+    margin-left: 600px;
+    margin-bottom: 100px;
 
-  
+  }
   
   .feature {
     margin-top: 6%;
@@ -273,8 +270,106 @@ h4{
       padding: 20px;
     }
   }
-  
+   */
 
+
+
+
+
+/* General Styles
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0fbe4;
+  color: #234d20;
+} */
+
+/* Features Section */
+.features {
+  padding: 4rem 2rem;
+  
+}
+
+/* Container Flex Layout */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  
+}
+
+/* Heading Style */
+.container h2 {
+  font-size:40px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  color: #035303;
+  max-width: 200px;
+ margin-left: 150px;
+}
+
+/* Feature Cards Grid */
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+
+}
+
+/* Individual Feature Box */
+.feature {
+  background-color: #e6d093;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  height: 250px;
+}
+
+/* Feature Heading */
+.feature h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.80rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Feature Description */
+.feature p {
+  margin: 0;
+  font-size:20px ;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .feature-list {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+  }
+}
 
 
 
